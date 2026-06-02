@@ -1,0 +1,27 @@
+# Unreal Engine generated files — do not commit these
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+FileOpenOrder/
+Build/
+
+# IDE files
+*.sln
+*.xcworkspace
+*.xcodeproj
+.vs/
+.vscode/
+*.suo
+*.user
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Compiled shaders
+ShaderCompileWorker
+UnrealLightmass
+
+# Packaged builds
+Packaged/

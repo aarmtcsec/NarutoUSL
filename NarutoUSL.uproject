@@ -1,0 +1,53 @@
+{
+    "FileVersion": 3,
+    "EngineAssociation": "5.6",
+    "Category": "Games",
+    "Description": "Naruto: Ultimate Shinobi Legacy — AAA Open World Action RPG",
+    "Modules": [
+        {
+            "Name": "NarutoUSL",
+            "Type": "Runtime",
+            "LoadingPhase": "Default",
+            "AdditionalDependencies": [
+                "Engine",
+                "AIModule",
+                "GameplayAbilities"
+            ]
+        }
+    ],
+    "Plugins": [
+        { "Name": "GameplayAbilities",      "Enabled": true },
+        { "Name": "EnhancedInput",          "Enabled": true },
+        { "Name": "CommonUI",               "Enabled": true },
+        { "Name": "CommonGame",             "Enabled": true },
+        { "Name": "Niagara",                "Enabled": true },
+        { "Name": "MetaSounds",             "Enabled": true },
+        { "Name": "MotionWarping",          "Enabled": true },
+        { "Name": "PoseSearch",             "Enabled": true },
+        { "Name": "ContextualAnimation",    "Enabled": true },
+        { "Name": "WorldPartition",         "Enabled": true },
+        { "Name": "Chaos",                  "Enabled": true },
+        { "Name": "ChaosVehicles",          "Enabled": false },
+        { "Name": "GeometryCollections",    "Enabled": true },
+        { "Name": "OnlineSubsystem",        "Enabled": true },
+        { "Name": "OnlineSubsystemSteam",   "Enabled": true },
+        { "Name": "OnlineSubsystemNull",    "Enabled": true },
+        { "Name": "DataRegistry",           "Enabled": true },
+        { "Name": "GameFeatures",           "Enabled": true },
+        { "Name": "ModularGameplay",        "Enabled": true },
+        { "Name": "AnimationLocomotionLibrary", "Enabled": true },
+        { "Name": "FullBodyIK",             "Enabled": true },
+        { "Name": "IKRig",                  "Enabled": true },
+        { "Name": "Landmass",               "Enabled": true },
+        { "Name": "Water",                  "Enabled": true },
+        { "Name": "PCG",                    "Enabled": true }
+    ],
+    "TargetPlatforms": [
+        "Windows",
+        "XboxOne",
+        "XSX",
+        "PS4",
+        "PS5",
+        "Linux"
+    ]
+}
